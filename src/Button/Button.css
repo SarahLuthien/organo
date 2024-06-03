@@ -1,0 +1,21 @@
+
+button{
+    font-family: "Montserrat", sans-serif;
+    width: 160px;
+    height: 80px;
+    background-color: rgba(98, 120, 247, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    margin: 35px 0;
+
+}
+
+button:hover{
+    color: rgba(149, 255, 212, 1);
+
+}

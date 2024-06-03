@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.titulo{
+    position:relative;
+    display:inline-block;
+    font-family: "Prata", serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #6278F7;
+    
+}
+
+.titulo:after {
+    content:'';
+    position:absolute;
+    left:0;right:0;
+    top:100%;
+    margin: 10px auto;
+    width: 64px;
+    height:4px;
+    background:#6278F7;
+}
